@@ -789,6 +789,7 @@ PRODUCT_COPY_FILES += \
     vendor/ohrtech/aleph/proprietary/vendor/bin/hw/android.hardware.audio.service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio.service \
     vendor/ohrtech/aleph/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.1-service.unisoc:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.1-service.unisoc \
     vendor/ohrtech/aleph/proprietary/vendor/bin/hw/android.hardware.camera.provider@2.4-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.camera.provider@2.4-service \
+    vendor/ohrtech/aleph/proprietary/vendor/bin/hw/android.hardware.cas@1.2-service-lazy:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.cas@1.2-service-lazy \
     vendor/ohrtech/aleph/proprietary/vendor/bin/hw/android.hardware.drm-service-lazy.clearkey:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm-service-lazy.clearkey \
     vendor/ohrtech/aleph/proprietary/vendor/bin/hw/android.hardware.drm-service-lazy.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm-service-lazy.widevine \
     vendor/ohrtech/aleph/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service.trusty:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service.trusty \
@@ -1295,7 +1296,6 @@ PRODUCT_COPY_FILES += \
     vendor/ohrtech/aleph/proprietary/vendor/etc/uniber.conf:$(TARGET_COPY_OUT_VENDOR)/etc/uniber.conf \
     vendor/ohrtech/aleph/proprietary/vendor/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \
     vendor/ohrtech/aleph/proprietary/vendor/etc/vintf/manifest/ai_engine-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/ai_engine-default.xml \
-    vendor/ohrtech/aleph/proprietary/vendor/etc/vintf/manifest/android.hardware.cas@1.2-service-lazy.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.cas@1.2-service-lazy.xml \
     vendor/ohrtech/aleph/proprietary/vendor/etc/vintf/manifest/android.hardware.drm-service.clearkey.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.drm-service.clearkey.xml \
     vendor/ohrtech/aleph/proprietary/vendor/etc/vintf/manifest/android.hardware.gatekeeper@1.0-service.trusty.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.gatekeeper@1.0-service.trusty.xml \
     vendor/ohrtech/aleph/proprietary/vendor/etc/vintf/manifest/android.hardware.health-service.example.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.health-service.example.xml \
