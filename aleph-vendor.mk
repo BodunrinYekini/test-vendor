@@ -789,7 +789,6 @@ PRODUCT_COPY_FILES += \
     vendor/ohrtech/aleph/proprietary/vendor/bin/hw/android.hardware.audio.service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio.service \
     vendor/ohrtech/aleph/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.1-service.unisoc:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.1-service.unisoc \
     vendor/ohrtech/aleph/proprietary/vendor/bin/hw/android.hardware.camera.provider@2.4-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.camera.provider@2.4-service \
-    vendor/ohrtech/aleph/proprietary/vendor/bin/hw/android.hardware.cas@1.2-service-lazy:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.cas@1.2-service-lazy \
     vendor/ohrtech/aleph/proprietary/vendor/bin/hw/android.hardware.drm-service-lazy.clearkey:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm-service-lazy.clearkey \
     vendor/ohrtech/aleph/proprietary/vendor/bin/hw/android.hardware.drm-service-lazy.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm-service-lazy.widevine \
     vendor/ohrtech/aleph/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service.trusty:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service.trusty \
