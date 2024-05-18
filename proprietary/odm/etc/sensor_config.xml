@@ -1,0 +1,64 @@
+  <root>
+  <!-->
+  sensor id 0
+  <-->
+       <CameraModuleCfg>
+        <SlotId>0</SlotId>
+        <SensorName>gc5035</SensorName>
+        <Facing>BACK</Facing>
+        <Orientation>90</Orientation>
+        <Resource_cost>50</Resource_cost>
+		<VCM>
+			<AfName>dw9714</AfName>
+			<Mode>0</Mode>
+        </VCM>
+        <TuningParameter>
+			<TuningName>gc5035</TuningName>
+        </TuningParameter>
+      </CameraModuleCfg>  
+	  <CameraModuleCfg>
+        <SlotId>0</SlotId>
+        <SensorName>ov5648</SensorName>
+        <Facing>BACK</Facing>
+        <Orientation>90</Orientation>
+        <Resource_cost>50</Resource_cost>
+		<VCM>
+			<AfName>dw9714</AfName>
+			<Mode>0</Mode>
+        </VCM>
+        <TuningParameter>
+			<TuningName>ov5648</TuningName>
+        </TuningParameter>
+      </CameraModuleCfg>  
+  <!-->
+  sensor id 1
+  <-->
+      <CameraModuleCfg>
+        <SlotId>1</SlotId>
+        <SensorName>gc02m2</SensorName>
+        <Facing>FRONT</Facing>
+        <Orientation>270</Orientation>
+        <Resource_cost>100</Resource_cost>
+        <TuningParameter>
+        <TuningName>gc02m2</TuningName>
+        </TuningParameter>
+      </CameraModuleCfg> 
+	  <CameraModuleCfg>
+        <SlotId>1</SlotId>
+        <SensorName>gc02m1</SensorName>
+        <Facing>FRONT</Facing>
+        <Orientation>270</Orientation>
+        <Resource_cost>100</Resource_cost>
+        <TuningParameter>
+        <TuningName>gc02m1</TuningName>
+        </TuningParameter>
+      </CameraModuleCfg> 
+  <!-->
+  sensor id 2
+  <-->
+
+  <!-->
+  sensor id 3
+  <-->
+
+  </root>
