@@ -760,10 +760,10 @@ PRODUCT_COPY_FILES += \
     vendor/ohrtech/aleph/proprietary/odm/logo/time_vert_48x24x13.yuv:$(TARGET_COPY_OUT_ODM)/logo/time_vert_48x24x13.yuv \
     vendor/ohrtech/aleph/proprietary/odm/logo/time_vert_72x36x13.rgba:$(TARGET_COPY_OUT_ODM)/logo/time_vert_72x36x13.rgba \
     vendor/ohrtech/aleph/proprietary/odm/logo/time_vert_72x36x13.yuv:$(TARGET_COPY_OUT_ODM)/logo/time_vert_72x36x13.yuv \
-    vendor/ohrtech/aleph/proprietary/odm/etc/permissions/android.hardware.camera.flash-autofocus.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/android.hardware.camera.flash-autofocus.xml
-    vendor/ohrtech/aleph/proprietary/odm/etc/permissions/android.hardware.camera.front.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/android.hardware.camera.front.xml
-    vendor/ohrtech/aleph/proprietary/odm/etc/permissions/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/android.hardware.fingerprint.xml
-    vendor/ohrtech/aleph/proprietary/odm/etc/permissions/vendor.sprd.hardware.soter.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/vendor.sprd.hardware.soter.xml
+    vendor/ohrtech/aleph/proprietary/odm/etc/permissions/android.hardware.camera.flash-autofocus.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/android.hardware.camera.flash-autofocus.xml \
+    vendor/ohrtech/aleph/proprietary/odm/etc/permissions/android.hardware.camera.front.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/android.hardware.camera.front.xml \
+    vendor/ohrtech/aleph/proprietary/odm/etc/permissions/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/android.hardware.fingerprint.xml \
+    vendor/ohrtech/aleph/proprietary/odm/etc/permissions/vendor.sprd.hardware.soter.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/vendor.sprd.hardware.soter.xml \
     vendor/ohrtech/aleph/proprietary/system_ext/etc/camera/default_cnr3_param.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/camera/default_cnr3_param.txt \
     vendor/ohrtech/aleph/proprietary/system_ext/etc/camera/default_ynr_param.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/camera/default_ynr_param.txt \
     vendor/ohrtech/aleph/proprietary/system_ext/etc/init/dataLogDaemon.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dataLogDaemon.rc \
