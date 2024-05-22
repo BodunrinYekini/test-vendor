@@ -3094,3 +3094,17 @@ PRODUCT_COPY_FILES += \
     vendor/ohrtech/aleph/proprietary/vendor/usr/idc/synaptics_dsx_i2c.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/synaptics_dsx_i2c.idc \
     vendor/ohrtech/aleph/proprietary/vendor/usr/keylayout/adaptive_ts.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/adaptive_ts.kl \
     vendor/ohrtech/aleph/proprietary/vendor/usr/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/gpio-keys.kl
+    
+    PRODUCT_PACKAGES += \
+    AospBtOverlay \
+    AospWifiOverlay_Marlin3 \
+    AospWifiOverlay_Marlin3_Mainline \
+    UniWifiOverlay_Marlin3 \
+    MultiuserOverlays \
+    NetworkStackOverlayGo \
+    NetworkStackOverlayGsi \
+    Settings__auto_generated_rro_vendor \
+    TetheringConfigOverlayGo \
+    TetheringConfigOverlayGsi \
+    unisoc_go_overlay_frameworks_res \
+    unisoc_overlay_frameworks_res
