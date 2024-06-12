@@ -35,9 +35,7 @@ PRODUCT_COPY_FILES += \
     vendor/ohrtech/aleph/proprietary/lib64/libstagefright_surface_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_surface_utils.so \
     vendor/ohrtech/aleph/proprietary/lib64/libstagefright_wfd.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_wfd.so \
     vendor/ohrtech/aleph/proprietary/odm/bin/CamDevSim:$(TARGET_COPY_OUT_ODM)/bin/CamDevSim \
-    vendor/ohrtech/aleph/proprietary/odm/bin/cam_tuning:$(TARGET_COPY_OUT_ODM)/bin/cam_tuning \
     vendor/ohrtech/aleph/proprietary/odm/bin/fm_tools:$(TARGET_COPY_OUT_ODM)/bin/fm_tools \
-    vendor/ohrtech/aleph/proprietary/odm/bin/minicamera:$(TARGET_COPY_OUT_ODM)/bin/minicamera \
     vendor/ohrtech/aleph/proprietary/odm/etc/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_policy_configuration.xml \
     vendor/ohrtech/aleph/proprietary/odm/etc/audio/audio_policy_configuration_a2dp_offload_disabled.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_policy_configuration_a2dp_offload_disabled.xml \
     vendor/ohrtech/aleph/proprietary/odm/etc/audio/audio_policy_volumes.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_policy_volumes.xml \
@@ -65,8 +63,6 @@ PRODUCT_COPY_FILES += \
     vendor/ohrtech/aleph/proprietary/odm/etc/audio_params/sprd/version1/dsp_vbc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_params/sprd/version1/dsp_vbc.xml \
     vendor/ohrtech/aleph/proprietary/odm/etc/audio_pcm.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_pcm.xml \
     vendor/ohrtech/aleph/proprietary/odm/etc/audio_route.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_route.xml \
-    vendor/ohrtech/aleph/proprietary/odm/etc/camera/3rdpool/samplenode/tuning/sample_tuning_1.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/3rdpool/samplenode/tuning/sample_tuning_1.txt \
-    vendor/ohrtech/aleph/proprietary/odm/etc/camera/3rdpool/samplenode/tuning/sample_tuning_2.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/3rdpool/samplenode/tuning/sample_tuning_2.txt \
     vendor/ohrtech/aleph/proprietary/odm/etc/init/wcn.rc:$(TARGET_COPY_OUT_ODM)/etc/init/wcn.rc \
     vendor/ohrtech/aleph/proprietary/odm/etc/isppipeline/Pipeline_Linkage.json:$(TARGET_COPY_OUT_ODM)/etc/isppipeline/Pipeline_Linkage.json \
     vendor/ohrtech/aleph/proprietary/odm/etc/lwp/Topology/common/DefaultNodeList.json:$(TARGET_COPY_OUT_ODM)/etc/lwp/Topology/common/DefaultNodeList.json \
@@ -170,7 +166,6 @@ PRODUCT_COPY_FILES += \
     vendor/ohrtech/aleph/proprietary/odm/firmware/wifi_board_config.xpe.ini:$(TARGET_COPY_OUT_ODM)/firmware/wifi_board_config.xpe.ini \
     vendor/ohrtech/aleph/proprietary/odm/firmware/wifi_board_config_aa.ini:$(TARGET_COPY_OUT_ODM)/firmware/wifi_board_config_aa.ini \
     vendor/ohrtech/aleph/proprietary/odm/firmware/wifi_board_config_aa.xpe.ini:$(TARGET_COPY_OUT_ODM)/firmware/wifi_board_config_aa.xpe.ini \
-    vendor/ohrtech/aleph/proprietary/odm/lib/hw/camera.ums9230.so:$(TARGET_COPY_OUT_ODM)/lib/hw/camera.ums9230.so \
     vendor/ohrtech/aleph/proprietary/odm/lib/libBokeh2Frames.so:$(TARGET_COPY_OUT_ODM)/lib/libBokeh2Frames.so \
     vendor/ohrtech/aleph/proprietary/odm/lib/libDefog.so:$(TARGET_COPY_OUT_ODM)/lib/libDefog.so \
     vendor/ohrtech/aleph/proprietary/odm/lib/libDualCam_OnliCalib.so:$(TARGET_COPY_OUT_ODM)/lib/libDualCam_OnliCalib.so \
@@ -187,7 +182,6 @@ PRODUCT_COPY_FILES += \
     vendor/ohrtech/aleph/proprietary/odm/lib/libWT.so:$(TARGET_COPY_OUT_ODM)/lib/libWT.so \
     vendor/ohrtech/aleph/proprietary/odm/lib/libXMPCore.so:$(TARGET_COPY_OUT_ODM)/lib/libXMPCore.so \
     vendor/ohrtech/aleph/proprietary/odm/lib/libXMPFiles.so:$(TARGET_COPY_OUT_ODM)/lib/libXMPFiles.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib/lib_camera_frc.so:$(TARGET_COPY_OUT_ODM)/lib/lib_camera_frc.so \
     vendor/ohrtech/aleph/proprietary/odm/lib/lib_faceskinseg_vdsp.so:$(TARGET_COPY_OUT_ODM)/lib/lib_faceskinseg_vdsp.so \
     vendor/ohrtech/aleph/proprietary/odm/lib/libae.so:$(TARGET_COPY_OUT_ODM)/lib/libae.so \
     vendor/ohrtech/aleph/proprietary/odm/lib/libae3.x.so:$(TARGET_COPY_OUT_ODM)/lib/libae3.x.so \
@@ -205,29 +199,6 @@ PRODUCT_COPY_FILES += \
     vendor/ohrtech/aleph/proprietary/odm/lib/libbokeh_gaussian_adapter.so:$(TARGET_COPY_OUT_ODM)/lib/libbokeh_gaussian_adapter.so \
     vendor/ohrtech/aleph/proprietary/odm/lib/libbokeh_gaussian_cap.so:$(TARGET_COPY_OUT_ODM)/lib/libbokeh_gaussian_cap.so \
     vendor/ohrtech/aleph/proprietary/odm/lib/libbt-vendor.so:$(TARGET_COPY_OUT_ODM)/lib/libbt-vendor.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib/libcamAe4.0.so:$(TARGET_COPY_OUT_ODM)/lib/libcamAe4.0.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib/libcamAf4.0.so:$(TARGET_COPY_OUT_ODM)/lib/libcamAf4.0.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib/libcamAlsc4.0.so:$(TARGET_COPY_OUT_ODM)/lib/libcamAlsc4.0.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib/libcamAwb4.0.so:$(TARGET_COPY_OUT_ODM)/lib/libcamAwb4.0.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib/libcamPcc4.0.so:$(TARGET_COPY_OUT_ODM)/lib/libcamPcc4.0.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib/libcamPd4.0.so:$(TARGET_COPY_OUT_ODM)/lib/libcamPd4.0.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib/libcam_otp_parser.so:$(TARGET_COPY_OUT_ODM)/lib/libcam_otp_parser.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib/libcamafl4.0.so:$(TARGET_COPY_OUT_ODM)/lib/libcamafl4.0.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib/libcambr_isp2.7.so:$(TARGET_COPY_OUT_ODM)/lib/libcambr_isp2.7.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib/libcamcalitest.so:$(TARGET_COPY_OUT_ODM)/lib/libcamcalitest.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib/libcamcommon.so:$(TARGET_COPY_OUT_ODM)/lib/libcamcommon.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib/libcamdfa.so:$(TARGET_COPY_OUT_ODM)/lib/libcamdfa.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib/libcamfacebeauty.so:$(TARGET_COPY_OUT_ODM)/lib/libcamfacebeauty.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib/libcamfaceskinseg.so:$(TARGET_COPY_OUT_ODM)/lib/libcamfaceskinseg.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib/libcamfb.so:$(TARGET_COPY_OUT_ODM)/lib/libcamfb.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib/libcamlpt.so:$(TARGET_COPY_OUT_ODM)/lib/libcamlpt.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib/libcammem.so:$(TARGET_COPY_OUT_ODM)/lib/libcammem.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib/libcamoem.so:$(TARGET_COPY_OUT_ODM)/lib/libcamoem.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib/libcampm_isp2.7.so:$(TARGET_COPY_OUT_ODM)/lib/libcampm_isp2.7.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib/libcampmloader.so:$(TARGET_COPY_OUT_ODM)/lib/libcampmloader.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib/libcamppm.so:$(TARGET_COPY_OUT_ODM)/lib/libcamppm.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib/libcamps.so:$(TARGET_COPY_OUT_ODM)/lib/libcamps.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib/libcamsensor.so:$(TARGET_COPY_OUT_ODM)/lib/libcamsensor.so \
     vendor/ohrtech/aleph/proprietary/odm/lib/libcds_a13_alsc3.2.so:$(TARGET_COPY_OUT_ODM)/lib/libcds_a13_alsc3.2.so \
     vendor/ohrtech/aleph/proprietary/odm/lib/libcds_if_ae3.x.so:$(TARGET_COPY_OUT_ODM)/lib/libcds_if_ae3.x.so \
     vendor/ohrtech/aleph/proprietary/odm/lib/libcds_if_awb4.0_v1.0.so:$(TARGET_COPY_OUT_ODM)/lib/libcds_if_awb4.0_v1.0.so \
@@ -276,7 +247,6 @@ PRODUCT_COPY_FILES += \
     vendor/ohrtech/aleph/proprietary/odm/lib/liblwpswnodes.so:$(TARGET_COPY_OUT_ODM)/lib/liblwpswnodes.so \
     vendor/ohrtech/aleph/proprietary/odm/lib/libmfnr.so:$(TARGET_COPY_OUT_ODM)/lib/libmfnr.so \
     vendor/ohrtech/aleph/proprietary/odm/lib/libmfnr_SD.so:$(TARGET_COPY_OUT_ODM)/lib/libmfnr_SD.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib/libmulticam.so:$(TARGET_COPY_OUT_ODM)/lib/libmulticam.so \
     vendor/ohrtech/aleph/proprietary/odm/lib/libomx_MF2SF_sw_sprd.so:$(TARGET_COPY_OUT_ODM)/lib/libomx_MF2SF_sw_sprd.so \
     vendor/ohrtech/aleph/proprietary/odm/lib/libotp_gc5035_common.so:$(TARGET_COPY_OUT_ODM)/lib/libotp_gc5035_common.so \
     vendor/ohrtech/aleph/proprietary/odm/lib/libotp_general.so:$(TARGET_COPY_OUT_ODM)/lib/libotp_general.so \
@@ -393,7 +363,6 @@ PRODUCT_COPY_FILES += \
     vendor/ohrtech/aleph/proprietary/odm/lib/libsprdaisfnradapter.so:$(TARGET_COPY_OUT_ODM)/lib/libsprdaisfnradapter.so \
     vendor/ohrtech/aleph/proprietary/odm/lib/libsprdbokeh.so:$(TARGET_COPY_OUT_ODM)/lib/libsprdbokeh.so \
     vendor/ohrtech/aleph/proprietary/odm/lib/libsprdbokeh_adapter.so:$(TARGET_COPY_OUT_ODM)/lib/libsprdbokeh_adapter.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib/libsprdcamalgassist.so:$(TARGET_COPY_OUT_ODM)/lib/libsprdcamalgassist.so \
     vendor/ohrtech/aleph/proprietary/odm/lib/libsprdcnr.so:$(TARGET_COPY_OUT_ODM)/lib/libsprdcnr.so \
     vendor/ohrtech/aleph/proprietary/odm/lib/libsprddepth.so:$(TARGET_COPY_OUT_ODM)/lib/libsprddepth.so \
     vendor/ohrtech/aleph/proprietary/odm/lib/libsprddepthadapter.so:$(TARGET_COPY_OUT_ODM)/lib/libsprddepthadapter.so \
@@ -448,17 +417,8 @@ PRODUCT_COPY_FILES += \
     vendor/ohrtech/aleph/proprietary/odm/lib/libverify.so:$(TARGET_COPY_OUT_ODM)/lib/libverify.so \
     vendor/ohrtech/aleph/proprietary/odm/lib/libxtm.so:$(TARGET_COPY_OUT_ODM)/lib/libxtm.so \
     vendor/ohrtech/aleph/proprietary/odm/lib/libyuv420_scaler.so:$(TARGET_COPY_OUT_ODM)/lib/libyuv420_scaler.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib/lwpPolicy/libcamMFPP.so:$(TARGET_COPY_OUT_ODM)/lib/lwpPolicy/libcamMFPP.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib/lwpPolicy/libcamMRPP.so:$(TARGET_COPY_OUT_ODM)/lib/lwpPolicy/libcamMRPP.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib/lwpPolicy/libcamNZ.so:$(TARGET_COPY_OUT_ODM)/lib/lwpPolicy/libcamNZ.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib/lwpPolicy/libcamPTC.so:$(TARGET_COPY_OUT_ODM)/lib/lwpPolicy/libcamPTC.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib/lwpPolicy/libcamSFBSP.so:$(TARGET_COPY_OUT_ODM)/lib/lwpPolicy/libcamSFBSP.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib/lwpPolicy/libcamSFP.so:$(TARGET_COPY_OUT_ODM)/lib/lwpPolicy/libcamSFP.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib/lwpPolicy/libcamSFPP.so:$(TARGET_COPY_OUT_ODM)/lib/lwpPolicy/libcamSFPP.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib/lwpPolicy/libcamSRPP.so:$(TARGET_COPY_OUT_ODM)/lib/lwpPolicy/libcamSRPP.so \
     vendor/ohrtech/aleph/proprietary/odm/lib/npidevice/autotestfm.so:$(TARGET_COPY_OUT_ODM)/lib/npidevice/autotestfm.so \
     vendor/ohrtech/aleph/proprietary/odm/lib/npidevice/libfm-sprd_eut.so:$(TARGET_COPY_OUT_ODM)/lib/npidevice/libfm-sprd_eut.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib64/hw/camera.ums9230.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/camera.ums9230.so \
     vendor/ohrtech/aleph/proprietary/odm/lib64/libBokeh2Frames.so:$(TARGET_COPY_OUT_ODM)/lib64/libBokeh2Frames.so \
     vendor/ohrtech/aleph/proprietary/odm/lib64/libDefog.so:$(TARGET_COPY_OUT_ODM)/lib64/libDefog.so \
     vendor/ohrtech/aleph/proprietary/odm/lib64/libDualCam_OnliCalib.so:$(TARGET_COPY_OUT_ODM)/lib64/libDualCam_OnliCalib.so \
@@ -475,7 +435,6 @@ PRODUCT_COPY_FILES += \
     vendor/ohrtech/aleph/proprietary/odm/lib64/libWT.so:$(TARGET_COPY_OUT_ODM)/lib64/libWT.so \
     vendor/ohrtech/aleph/proprietary/odm/lib64/libXMPCore.so:$(TARGET_COPY_OUT_ODM)/lib64/libXMPCore.so \
     vendor/ohrtech/aleph/proprietary/odm/lib64/libXMPFiles.so:$(TARGET_COPY_OUT_ODM)/lib64/libXMPFiles.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib64/lib_camera_frc.so:$(TARGET_COPY_OUT_ODM)/lib64/lib_camera_frc.so \
     vendor/ohrtech/aleph/proprietary/odm/lib64/lib_faceskinseg_vdsp.so:$(TARGET_COPY_OUT_ODM)/lib64/lib_faceskinseg_vdsp.so \
     vendor/ohrtech/aleph/proprietary/odm/lib64/libae.so:$(TARGET_COPY_OUT_ODM)/lib64/libae.so \
     vendor/ohrtech/aleph/proprietary/odm/lib64/libae3.x.so:$(TARGET_COPY_OUT_ODM)/lib64/libae3.x.so \
@@ -493,29 +452,6 @@ PRODUCT_COPY_FILES += \
     vendor/ohrtech/aleph/proprietary/odm/lib64/libbokeh_gaussian_adapter.so:$(TARGET_COPY_OUT_ODM)/lib64/libbokeh_gaussian_adapter.so \
     vendor/ohrtech/aleph/proprietary/odm/lib64/libbokeh_gaussian_cap.so:$(TARGET_COPY_OUT_ODM)/lib64/libbokeh_gaussian_cap.so \
     vendor/ohrtech/aleph/proprietary/odm/lib64/libbt-vendor.so:$(TARGET_COPY_OUT_ODM)/lib64/libbt-vendor.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib64/libcamAe4.0.so:$(TARGET_COPY_OUT_ODM)/lib64/libcamAe4.0.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib64/libcamAf4.0.so:$(TARGET_COPY_OUT_ODM)/lib64/libcamAf4.0.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib64/libcamAlsc4.0.so:$(TARGET_COPY_OUT_ODM)/lib64/libcamAlsc4.0.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib64/libcamAwb4.0.so:$(TARGET_COPY_OUT_ODM)/lib64/libcamAwb4.0.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib64/libcamPcc4.0.so:$(TARGET_COPY_OUT_ODM)/lib64/libcamPcc4.0.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib64/libcamPd4.0.so:$(TARGET_COPY_OUT_ODM)/lib64/libcamPd4.0.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib64/libcam_otp_parser.so:$(TARGET_COPY_OUT_ODM)/lib64/libcam_otp_parser.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib64/libcamafl4.0.so:$(TARGET_COPY_OUT_ODM)/lib64/libcamafl4.0.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib64/libcambr_isp2.7.so:$(TARGET_COPY_OUT_ODM)/lib64/libcambr_isp2.7.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib64/libcamcalitest.so:$(TARGET_COPY_OUT_ODM)/lib64/libcamcalitest.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib64/libcamcommon.so:$(TARGET_COPY_OUT_ODM)/lib64/libcamcommon.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib64/libcamdfa.so:$(TARGET_COPY_OUT_ODM)/lib64/libcamdfa.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib64/libcamfacebeauty.so:$(TARGET_COPY_OUT_ODM)/lib64/libcamfacebeauty.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib64/libcamfaceskinseg.so:$(TARGET_COPY_OUT_ODM)/lib64/libcamfaceskinseg.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib64/libcamfb.so:$(TARGET_COPY_OUT_ODM)/lib64/libcamfb.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib64/libcamlpt.so:$(TARGET_COPY_OUT_ODM)/lib64/libcamlpt.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib64/libcammem.so:$(TARGET_COPY_OUT_ODM)/lib64/libcammem.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib64/libcamoem.so:$(TARGET_COPY_OUT_ODM)/lib64/libcamoem.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib64/libcampm_isp2.7.so:$(TARGET_COPY_OUT_ODM)/lib64/libcampm_isp2.7.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib64/libcampmloader.so:$(TARGET_COPY_OUT_ODM)/lib64/libcampmloader.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib64/libcamppm.so:$(TARGET_COPY_OUT_ODM)/lib64/libcamppm.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib64/libcamps.so:$(TARGET_COPY_OUT_ODM)/lib64/libcamps.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib64/libcamsensor.so:$(TARGET_COPY_OUT_ODM)/lib64/libcamsensor.so \
     vendor/ohrtech/aleph/proprietary/odm/lib64/libcds_a13_alsc3.2.so:$(TARGET_COPY_OUT_ODM)/lib64/libcds_a13_alsc3.2.so \
     vendor/ohrtech/aleph/proprietary/odm/lib64/libcds_if_ae3.x.so:$(TARGET_COPY_OUT_ODM)/lib64/libcds_if_ae3.x.so \
     vendor/ohrtech/aleph/proprietary/odm/lib64/libcds_if_awb4.0_v1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/libcds_if_awb4.0_v1.0.so \
@@ -564,7 +500,6 @@ PRODUCT_COPY_FILES += \
     vendor/ohrtech/aleph/proprietary/odm/lib64/liblwpswnodes.so:$(TARGET_COPY_OUT_ODM)/lib64/liblwpswnodes.so \
     vendor/ohrtech/aleph/proprietary/odm/lib64/libmfnr.so:$(TARGET_COPY_OUT_ODM)/lib64/libmfnr.so \
     vendor/ohrtech/aleph/proprietary/odm/lib64/libmfnr_SD.so:$(TARGET_COPY_OUT_ODM)/lib64/libmfnr_SD.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib64/libmulticam.so:$(TARGET_COPY_OUT_ODM)/lib64/libmulticam.so \
     vendor/ohrtech/aleph/proprietary/odm/lib64/libomx_MF2SF_sw_sprd.so:$(TARGET_COPY_OUT_ODM)/lib64/libomx_MF2SF_sw_sprd.so \
     vendor/ohrtech/aleph/proprietary/odm/lib64/libotp_gc5035_common.so:$(TARGET_COPY_OUT_ODM)/lib64/libotp_gc5035_common.so \
     vendor/ohrtech/aleph/proprietary/odm/lib64/libotp_general.so:$(TARGET_COPY_OUT_ODM)/lib64/libotp_general.so \
@@ -681,7 +616,6 @@ PRODUCT_COPY_FILES += \
     vendor/ohrtech/aleph/proprietary/odm/lib64/libsprdaisfnradapter.so:$(TARGET_COPY_OUT_ODM)/lib64/libsprdaisfnradapter.so \
     vendor/ohrtech/aleph/proprietary/odm/lib64/libsprdbokeh.so:$(TARGET_COPY_OUT_ODM)/lib64/libsprdbokeh.so \
     vendor/ohrtech/aleph/proprietary/odm/lib64/libsprdbokeh_adapter.so:$(TARGET_COPY_OUT_ODM)/lib64/libsprdbokeh_adapter.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib64/libsprdcamalgassist.so:$(TARGET_COPY_OUT_ODM)/lib64/libsprdcamalgassist.so \
     vendor/ohrtech/aleph/proprietary/odm/lib64/libsprdcnr.so:$(TARGET_COPY_OUT_ODM)/lib64/libsprdcnr.so \
     vendor/ohrtech/aleph/proprietary/odm/lib64/libsprddepth.so:$(TARGET_COPY_OUT_ODM)/lib64/libsprddepth.so \
     vendor/ohrtech/aleph/proprietary/odm/lib64/libsprddepthadapter.so:$(TARGET_COPY_OUT_ODM)/lib64/libsprddepthadapter.so \
@@ -736,14 +670,6 @@ PRODUCT_COPY_FILES += \
     vendor/ohrtech/aleph/proprietary/odm/lib64/libverify.so:$(TARGET_COPY_OUT_ODM)/lib64/libverify.so \
     vendor/ohrtech/aleph/proprietary/odm/lib64/libxtm.so:$(TARGET_COPY_OUT_ODM)/lib64/libxtm.so \
     vendor/ohrtech/aleph/proprietary/odm/lib64/libyuv420_scaler.so:$(TARGET_COPY_OUT_ODM)/lib64/libyuv420_scaler.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib64/lwpPolicy/libcamMFPP.so:$(TARGET_COPY_OUT_ODM)/lib64/lwpPolicy/libcamMFPP.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib64/lwpPolicy/libcamMRPP.so:$(TARGET_COPY_OUT_ODM)/lib64/lwpPolicy/libcamMRPP.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib64/lwpPolicy/libcamNZ.so:$(TARGET_COPY_OUT_ODM)/lib64/lwpPolicy/libcamNZ.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib64/lwpPolicy/libcamPTC.so:$(TARGET_COPY_OUT_ODM)/lib64/lwpPolicy/libcamPTC.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib64/lwpPolicy/libcamSFBSP.so:$(TARGET_COPY_OUT_ODM)/lib64/lwpPolicy/libcamSFBSP.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib64/lwpPolicy/libcamSFP.so:$(TARGET_COPY_OUT_ODM)/lib64/lwpPolicy/libcamSFP.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib64/lwpPolicy/libcamSFPP.so:$(TARGET_COPY_OUT_ODM)/lib64/lwpPolicy/libcamSFPP.so \
-    vendor/ohrtech/aleph/proprietary/odm/lib64/lwpPolicy/libcamSRPP.so:$(TARGET_COPY_OUT_ODM)/lib64/lwpPolicy/libcamSRPP.so \
     vendor/ohrtech/aleph/proprietary/odm/logo/logo_1000x200.rgba:$(TARGET_COPY_OUT_ODM)/logo/logo_1000x200.rgba \
     vendor/ohrtech/aleph/proprietary/odm/logo/logo_100x20.rgba:$(TARGET_COPY_OUT_ODM)/logo/logo_100x20.rgba \
     vendor/ohrtech/aleph/proprietary/odm/logo/logo_1500x300.rgba:$(TARGET_COPY_OUT_ODM)/logo/logo_1500x300.rgba \
@@ -760,12 +686,8 @@ PRODUCT_COPY_FILES += \
     vendor/ohrtech/aleph/proprietary/odm/logo/time_vert_48x24x13.yuv:$(TARGET_COPY_OUT_ODM)/logo/time_vert_48x24x13.yuv \
     vendor/ohrtech/aleph/proprietary/odm/logo/time_vert_72x36x13.rgba:$(TARGET_COPY_OUT_ODM)/logo/time_vert_72x36x13.rgba \
     vendor/ohrtech/aleph/proprietary/odm/logo/time_vert_72x36x13.yuv:$(TARGET_COPY_OUT_ODM)/logo/time_vert_72x36x13.yuv \
-    vendor/ohrtech/aleph/proprietary/odm/etc/permissions/android.hardware.camera.flash-autofocus.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/android.hardware.camera.flash-autofocus.xml \
-    vendor/ohrtech/aleph/proprietary/odm/etc/permissions/android.hardware.camera.front.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/android.hardware.camera.front.xml \
     vendor/ohrtech/aleph/proprietary/odm/etc/permissions/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/android.hardware.fingerprint.xml \
     vendor/ohrtech/aleph/proprietary/odm/etc/permissions/vendor.sprd.hardware.soter.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/vendor.sprd.hardware.soter.xml \
-    vendor/ohrtech/aleph/proprietary/system_ext/etc/camera/default_cnr3_param.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/camera/default_cnr3_param.txt \
-    vendor/ohrtech/aleph/proprietary/system_ext/etc/camera/default_ynr_param.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/camera/default_ynr_param.txt \
     vendor/ohrtech/aleph/proprietary/system_ext/etc/init/dataLogDaemon.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dataLogDaemon.rc \
     vendor/ohrtech/aleph/proprietary/system_ext/etc/init/data_rps.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/data_rps.rc \
     vendor/ohrtech/aleph/proprietary/vendor/bin/aiactiver_testbench:$(TARGET_COPY_OUT_VENDOR)/bin/aiactiver_testbench \
@@ -792,7 +714,6 @@ PRODUCT_COPY_FILES += \
     vendor/ohrtech/aleph/proprietary/vendor/bin/hs20-osu-client:$(TARGET_COPY_OUT_VENDOR)/bin/hs20-osu-client \
     vendor/ohrtech/aleph/proprietary/vendor/bin/hw/android.hardware.audio.service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio.service \
     vendor/ohrtech/aleph/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.1-service.unisoc:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.1-service.unisoc \
-    vendor/ohrtech/aleph/proprietary/vendor/bin/hw/android.hardware.camera.provider@2.4-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.camera.provider@2.4-service \
     vendor/ohrtech/aleph/proprietary/vendor/bin/hw/android.hardware.cas@1.2-service-lazy:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.cas@1.2-service-lazy \
     vendor/ohrtech/aleph/proprietary/vendor/bin/hw/android.hardware.drm-service-lazy.clearkey:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm-service-lazy.clearkey \
     vendor/ohrtech/aleph/proprietary/vendor/bin/hw/android.hardware.drm-service-lazy.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm-service-lazy.widevine \
@@ -958,7 +879,6 @@ PRODUCT_COPY_FILES += \
     vendor/ohrtech/aleph/proprietary/vendor/etc/init/ai_engine-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ai_engine-default.rc \
     vendor/ohrtech/aleph/proprietary/vendor/etc/init/android.hardware.audio.service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio.service.rc \
     vendor/ohrtech/aleph/proprietary/vendor/etc/init/android.hardware.bluetooth@1.1-service.unisoc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.1-service.unisoc.rc \
-    vendor/ohrtech/aleph/proprietary/vendor/etc/init/android.hardware.camera.provider@2.4-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.camera.provider@2.4-service.rc \
     vendor/ohrtech/aleph/proprietary/vendor/etc/init/android.hardware.cas@1.2-service-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.cas@1.2-service-lazy.rc \
     vendor/ohrtech/aleph/proprietary/vendor/etc/init/android.hardware.drm-service-lazy.clearkey.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm-service-lazy.clearkey.rc \
     vendor/ohrtech/aleph/proprietary/vendor/etc/init/android.hardware.drm-service-lazy.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm-service-lazy.widevine.rc \
@@ -2623,7 +2543,6 @@ PRODUCT_COPY_FILES += \
     vendor/ohrtech/aleph/proprietary/vendor/firmware/s5kjn1/video1/uiinput.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/s5kjn1/video1/uiinput.bin \
     vendor/ohrtech/aleph/proprietary/vendor/firmware/s5kjn1/video2/uiinput.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/s5kjn1/video2/uiinput.bin \
     vendor/ohrtech/aleph/proprietary/vendor/firmware/soter.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/soter.elf \
-    vendor/ohrtech/aleph/proprietary/vendor/framework/androidx.camera.extensions.impl.jar:$(TARGET_COPY_OUT_VENDOR)/framework/androidx.camera.extensions.impl.jar \
     vendor/ohrtech/aleph/proprietary/vendor/lib/android.hardware.bluetooth.audio-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.bluetooth.audio-impl.so \
     vendor/ohrtech/aleph/proprietary/vendor/lib/arm.graphics-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/arm.graphics-V1-ndk.so \
     vendor/ohrtech/aleph/proprietary/vendor/lib/arm.graphics-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/arm.graphics-V1-ndk_platform.so \
@@ -2632,14 +2551,6 @@ PRODUCT_COPY_FILES += \
     vendor/ohrtech/aleph/proprietary/vendor/lib/arm.graphics-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/arm.graphics-V3-ndk.so \
     vendor/ohrtech/aleph/proprietary/vendor/lib/audioclient-types-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/audioclient-types-aidl-cpp.so \
     vendor/ohrtech/aleph/proprietary/vendor/lib/av-types-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/av-types-aidl-cpp.so \
-    vendor/ohrtech/aleph/proprietary/vendor/lib/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@1.0-impl.so \
-    vendor/ohrtech/aleph/proprietary/vendor/lib/camera.device@3.2-impl-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.2-impl-sprd.so \
-    vendor/ohrtech/aleph/proprietary/vendor/lib/camera.device@3.3-impl-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.3-impl-sprd.so \
-    vendor/ohrtech/aleph/proprietary/vendor/lib/camera.device@3.4-external-impl-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.4-external-impl-sprd.so \
-    vendor/ohrtech/aleph/proprietary/vendor/lib/camera.device@3.4-impl-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.4-impl-sprd.so \
-    vendor/ohrtech/aleph/proprietary/vendor/lib/camera.device@3.5-external-impl-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.5-external-impl-sprd.so \
-    vendor/ohrtech/aleph/proprietary/vendor/lib/camera.device@3.5-impl-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.5-impl-sprd.so \
-    vendor/ohrtech/aleph/proprietary/vendor/lib/camera.device@3.6-external-impl-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.6-external-impl-sprd.so \
     vendor/ohrtech/aleph/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
     vendor/ohrtech/aleph/proprietary/vendor/lib/framework-permission-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/framework-permission-aidl-cpp.so \
     vendor/ohrtech/aleph/proprietary/vendor/lib/hw/android.hardware.audio.effect@7.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio.effect@7.0-impl.so \
@@ -2698,7 +2609,6 @@ PRODUCT_COPY_FILES += \
     vendor/ohrtech/aleph/proprietary/vendor/lib/libbqbbt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbqbbt.so \
     vendor/ohrtech/aleph/proprietary/vendor/lib/libbt-sprd_suite.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbt-sprd_suite.so \
     vendor/ohrtech/aleph/proprietary/vendor/lib/libbt-ssp_bt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbt-ssp_bt.so \
-    vendor/ohrtech/aleph/proprietary/vendor/lib/libcamera2ndk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera2ndk_vendor.so \
     vendor/ohrtech/aleph/proprietary/vendor/lib/libcodec2_hidl@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_hidl@1.1.so \
     vendor/ohrtech/aleph/proprietary/vendor/lib/libcodec2_hidl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_hidl_plugin.so \
     vendor/ohrtech/aleph/proprietary/vendor/lib/libcodec2_unisoc_av1dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_unisoc_av1dec.so \
@@ -2882,14 +2792,6 @@ PRODUCT_COPY_FILES += \
     vendor/ohrtech/aleph/proprietary/vendor/lib64/arm.graphics-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/arm.graphics-V3-ndk.so \
     vendor/ohrtech/aleph/proprietary/vendor/lib64/audioclient-types-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/audioclient-types-aidl-cpp.so \
     vendor/ohrtech/aleph/proprietary/vendor/lib64/av-types-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/av-types-aidl-cpp.so \
-    vendor/ohrtech/aleph/proprietary/vendor/lib64/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@1.0-impl.so \
-    vendor/ohrtech/aleph/proprietary/vendor/lib64/camera.device@3.2-impl-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.2-impl-sprd.so \
-    vendor/ohrtech/aleph/proprietary/vendor/lib64/camera.device@3.3-impl-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.3-impl-sprd.so \
-    vendor/ohrtech/aleph/proprietary/vendor/lib64/camera.device@3.4-external-impl-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.4-external-impl-sprd.so \
-    vendor/ohrtech/aleph/proprietary/vendor/lib64/camera.device@3.4-impl-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.4-impl-sprd.so \
-    vendor/ohrtech/aleph/proprietary/vendor/lib64/camera.device@3.5-external-impl-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.5-external-impl-sprd.so \
-    vendor/ohrtech/aleph/proprietary/vendor/lib64/camera.device@3.5-impl-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.5-impl-sprd.so \
-    vendor/ohrtech/aleph/proprietary/vendor/lib64/camera.device@3.6-external-impl-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.6-external-impl-sprd.so \
     vendor/ohrtech/aleph/proprietary/vendor/lib64/cplog_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/cplog_common.so \
     vendor/ohrtech/aleph/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
     vendor/ohrtech/aleph/proprietary/vendor/lib64/framework-permission-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/framework-permission-aidl-cpp.so \
@@ -2948,7 +2850,6 @@ PRODUCT_COPY_FILES += \
     vendor/ohrtech/aleph/proprietary/vendor/lib64/libbluetooth_audio_session_aidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session_aidl.so \
     vendor/ohrtech/aleph/proprietary/vendor/lib64/libbt-sprd_suite.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbt-sprd_suite.so \
     vendor/ohrtech/aleph/proprietary/vendor/lib64/libbt-ssp_bt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbt-ssp_bt.so \
-    vendor/ohrtech/aleph/proprietary/vendor/lib64/libcamera2ndk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera2ndk_vendor.so \
     vendor/ohrtech/aleph/proprietary/vendor/lib64/libcodec2_unisoc_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_unisoc_common.so \
     vendor/ohrtech/aleph/proprietary/vendor/lib64/libcodec2_unisoc_deintl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_unisoc_deintl.so \
     vendor/ohrtech/aleph/proprietary/vendor/lib64/libcodec2_unisoc_imaadpcm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_unisoc_imaadpcm.so \
@@ -3094,4 +2995,4 @@ PRODUCT_COPY_FILES += \
     vendor/ohrtech/aleph/proprietary/vendor/usr/idc/synaptics_dsx_i2c.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/synaptics_dsx_i2c.idc \
     vendor/ohrtech/aleph/proprietary/vendor/usr/keylayout/adaptive_ts.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/adaptive_ts.kl \
     vendor/ohrtech/aleph/proprietary/vendor/usr/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/gpio-keys.kl
-    
+   
