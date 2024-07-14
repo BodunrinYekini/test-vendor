@@ -1,0 +1,20 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.odm_dlkm.brand=UNISOC
+ro.product.odm_dlkm.device=ums9230_4h10_go
+ro.product.odm_dlkm.manufacturer=UNISOC
+ro.product.odm_dlkm.model=ums9230_4h10_go_Natv
+ro.product.odm_dlkm.name=ums9230_4h10_go_Natv
+ro.odm_dlkm.build.date=Wed Nov  8 11:43:28 CST 2023
+ro.odm_dlkm.build.date.utc=1699415008
+ro.odm_dlkm.build.fingerprint=UNISOC/ums9230_4h10_go_Natv/ums9230_4h10_go:13/TP1A.220624.014/20231108-114636:userdebug/test-keys
+ro.odm_dlkm.build.id=TP1A.220624.014
+ro.odm_dlkm.build.tags=test-keys
+ro.odm_dlkm.build.type=userdebug
+ro.odm_dlkm.build.version.incremental=20231108-114636
+ro.odm_dlkm.build.version.release=13
+ro.odm_dlkm.build.version.release_or_codename=13
+ro.odm_dlkm.build.version.sdk=33
+# end of file
