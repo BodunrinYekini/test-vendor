@@ -885,7 +885,6 @@ PRODUCT_COPY_FILES += \
     vendor/ohrtech/aleph/proprietary/vendor/bin/yloglite:$(TARGET_COPY_OUT_VENDOR)/bin/yloglite \
     vendor/ohrtech/aleph/proprietary/vendor/bin/yloglitectl:$(TARGET_COPY_OUT_VENDOR)/bin/yloglitectl \
     vendor/ohrtech/aleph/proprietary/vendor/bin/yloglitekat:$(TARGET_COPY_OUT_VENDOR)/bin/yloglitekat \
-    vendor/ohrtech/aleph/proprietary/vendor/classes.dex:$(TARGET_COPY_OUT_VENDOR)/classes.dex \
     vendor/ohrtech/aleph/proprietary/vendor/etc/BBAT.conf:$(TARGET_COPY_OUT_VENDOR)/etc/BBAT.conf \
     vendor/ohrtech/aleph/proprietary/vendor/etc/FD_tunning_param.xml:$(TARGET_COPY_OUT_VENDOR)/etc/FD_tunning_param.xml \
     vendor/ohrtech/aleph/proprietary/vendor/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_audio_policy_configuration.xml \
