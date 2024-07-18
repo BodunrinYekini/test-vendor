@@ -3042,7 +3042,7 @@ PRODUCT_COPY_FILES += \
     vendor/ohrtech/aleph/proprietary/vendor/usr/idc/synaptics_dsx_i2c.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/synaptics_dsx_i2c.idc \
     vendor/ohrtech/aleph/proprietary/vendor/usr/keylayout/adaptive_ts.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/adaptive_ts.kl \
     vendor/ohrtech/aleph/proprietary/vendor/usr/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/gpio-keys.kl \
-    vendor/ohrtech/aleph/proprietary/vendor_dlkm/vendor_dlkm:$(TARGET_COPY_OUT_VENDOR_DLKM)/vendor_dlkm
+    $(call find-copy-subdir-files,*,vendor/ohrtech/aleph/proprietary/vendor_dlkm/,$(TARGET_COPY_OUT_VENDOR_DLKM))
 
 PRODUCT_PACKAGES += \
     LogManager \
