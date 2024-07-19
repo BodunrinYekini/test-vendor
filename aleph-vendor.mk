@@ -3053,7 +3053,6 @@ PRODUCT_PACKAGES += \
     LogManager \
     ProxyNFwLocation \
     WirelessTools \
-    ims \
     androidx.camera.extensions.impl \
     ai_engine-default \
     android.hardware.cas@1.2-service-lazy \
@@ -3088,3 +3087,4 @@ PRODUCT_PACKAGES += \
 
 #SoterService \
 #UASetting \
+#ims \
