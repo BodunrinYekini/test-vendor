@@ -754,6 +754,8 @@ PRODUCT_COPY_FILES += \
     vendor/ohrtech/aleph/proprietary/system_ext/etc/camera/default_ynr_param.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/camera/default_ynr_param.txt \
     vendor/ohrtech/aleph/proprietary/system_ext/etc/init/dataLogDaemon.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dataLogDaemon.rc \
     vendor/ohrtech/aleph/proprietary/system_ext/etc/init/data_rps.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/data_rps.rc \
+    vendor/ohrtech/aleph/proprietary/system_ext/lib/libmediahdrtosdrtransform.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmediahdrtosdrtransform.so \
+    vendor/ohrtech/aleph/proprietary/system_ext/lib64/libmediahdrtosdrtransform.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmediahdrtosdrtransform.so \
     vendor/ohrtech/aleph/proprietary/vendor/bin/aiactiver_testbench:$(TARGET_COPY_OUT_VENDOR)/bin/aiactiver_testbench \
     vendor/ohrtech/aleph/proprietary/vendor/bin/audiodumpclient:$(TARGET_COPY_OUT_VENDOR)/bin/audiodumpclient \
     vendor/ohrtech/aleph/proprietary/vendor/bin/boringssl_self_test32:$(TARGET_COPY_OUT_VENDOR)/bin/boringssl_self_test32 \
