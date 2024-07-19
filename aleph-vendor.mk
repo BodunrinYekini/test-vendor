@@ -3052,9 +3052,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     LogManager \
     ProxyNFwLocation \
-    UASetting \
     WirelessTools \
-    SoterService \
     ims \
     androidx.camera.extensions.impl \
     ai_engine-default \
@@ -3087,3 +3085,6 @@ PRODUCT_PACKAGES += \
     vendor.sprd.hardware.boot@1.2 \
     vendor.sprd.hardware.gnss@2.2-service \
     manifest_kernel
+
+#SoterService \
+#UASetting \
