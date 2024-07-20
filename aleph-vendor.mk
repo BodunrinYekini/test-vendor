@@ -6,25 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/ohrtech/aleph
 
 PRODUCT_COPY_FILES += \
-    vendor/ohrtech/aleph/proprietary/etc/audio_effects.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_effects.conf \
-    vendor/ohrtech/aleph/proprietary/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/libnfc-nci.conf \
-    vendor/ohrtech/aleph/proprietary/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_SYSTEM)/etc/seccomp_policy/mediacodec.policy \
-    vendor/ohrtech/aleph/proprietary/lib/libmedia_codeclist.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmedia_codeclist.so \
-    vendor/ohrtech/aleph/proprietary/lib/libremotedisplay.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libremotedisplay.so \
-    vendor/ohrtech/aleph/proprietary/lib/libstagefright_bufferpool@2.0.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_bufferpool@2.0.1.so \
-    vendor/ohrtech/aleph/proprietary/lib/libstagefright_codecbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_codecbase.so \
-    vendor/ohrtech/aleph/proprietary/lib/libstagefright_framecapture_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_framecapture_utils.so \
-    vendor/ohrtech/aleph/proprietary/lib/libstagefright_surface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_surface.so \
-    vendor/ohrtech/aleph/proprietary/lib/libstagefright_surface_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_surface_utils.so \
-    vendor/ohrtech/aleph/proprietary/lib/libstagefright_wfd.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_wfd.so \
-    vendor/ohrtech/aleph/proprietary/lib64/libmedia_codeclist.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmedia_codeclist.so \
-    vendor/ohrtech/aleph/proprietary/lib64/libremotedisplay.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libremotedisplay.so \
-    vendor/ohrtech/aleph/proprietary/lib64/libstagefright_bufferpool@2.0.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_bufferpool@2.0.1.so \
-    vendor/ohrtech/aleph/proprietary/lib64/libstagefright_codecbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_codecbase.so \
-    vendor/ohrtech/aleph/proprietary/lib64/libstagefright_framecapture_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_framecapture_utils.so \
-    vendor/ohrtech/aleph/proprietary/lib64/libstagefright_surface.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_surface.so \
-    vendor/ohrtech/aleph/proprietary/lib64/libstagefright_surface_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_surface_utils.so \
-    vendor/ohrtech/aleph/proprietary/lib64/libstagefright_wfd.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_wfd.so \
     vendor/ohrtech/aleph/proprietary/odm/bin/CamDevSim:$(TARGET_COPY_OUT_ODM)/bin/CamDevSim \
     vendor/ohrtech/aleph/proprietary/odm/bin/cam_tuning:$(TARGET_COPY_OUT_ODM)/bin/cam_tuning \
     vendor/ohrtech/aleph/proprietary/odm/bin/fm_tools:$(TARGET_COPY_OUT_ODM)/bin/fm_tools \
@@ -754,12 +735,6 @@ PRODUCT_COPY_FILES += \
     vendor/ohrtech/aleph/proprietary/odm/logo/time_vert_48x24x13.yuv:$(TARGET_COPY_OUT_ODM)/logo/time_vert_48x24x13.yuv \
     vendor/ohrtech/aleph/proprietary/odm/logo/time_vert_72x36x13.rgba:$(TARGET_COPY_OUT_ODM)/logo/time_vert_72x36x13.rgba \
     vendor/ohrtech/aleph/proprietary/odm/logo/time_vert_72x36x13.yuv:$(TARGET_COPY_OUT_ODM)/logo/time_vert_72x36x13.yuv \
-    vendor/ohrtech/aleph/proprietary/system_ext/etc/camera/default_cnr3_param.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/camera/default_cnr3_param.txt \
-    vendor/ohrtech/aleph/proprietary/system_ext/etc/camera/default_ynr_param.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/camera/default_ynr_param.txt \
-    vendor/ohrtech/aleph/proprietary/system_ext/etc/init/dataLogDaemon.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dataLogDaemon.rc \
-    vendor/ohrtech/aleph/proprietary/system_ext/etc/init/data_rps.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/data_rps.rc \
-    vendor/ohrtech/aleph/proprietary/system_ext/lib/libmediahdrtosdrtransform.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmediahdrtosdrtransform.so \
-    vendor/ohrtech/aleph/proprietary/system_ext/lib64/libmediahdrtosdrtransform.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmediahdrtosdrtransform.so \
     vendor/ohrtech/aleph/proprietary/vendor/bin/aiactiver_testbench:$(TARGET_COPY_OUT_VENDOR)/bin/aiactiver_testbench \
     vendor/ohrtech/aleph/proprietary/vendor/bin/audiodumpclient:$(TARGET_COPY_OUT_VENDOR)/bin/audiodumpclient \
     vendor/ohrtech/aleph/proprietary/vendor/bin/boringssl_self_test32:$(TARGET_COPY_OUT_VENDOR)/bin/boringssl_self_test32 \
