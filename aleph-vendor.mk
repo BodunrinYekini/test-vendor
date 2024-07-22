@@ -434,6 +434,7 @@ PRODUCT_COPY_FILES += \
     vendor/ohrtech/aleph/proprietary/odm/lib/lwpPolicy/libcamSRPP.so:$(TARGET_COPY_OUT_ODM)/lib/lwpPolicy/libcamSRPP.so \
     vendor/ohrtech/aleph/proprietary/odm/lib/npidevice/autotestfm.so:$(TARGET_COPY_OUT_ODM)/lib/npidevice/autotestfm.so \
     vendor/ohrtech/aleph/proprietary/odm/lib/npidevice/libfm-sprd_eut.so:$(TARGET_COPY_OUT_ODM)/lib/npidevice/libfm-sprd_eut.so \
+    vendor/ohrtech/aleph/proprietary/odm/lib/npidevice/libcamcalitest.so:$(TARGET_COPY_OUT_ODM)/lib/npidevice/libcamcalitest.so \
     vendor/ohrtech/aleph/proprietary/odm/lib64/hw/camera.ums9230.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/camera.ums9230.so \
     vendor/ohrtech/aleph/proprietary/odm/lib64/libBokeh2Frames.so:$(TARGET_COPY_OUT_ODM)/lib64/libBokeh2Frames.so \
     vendor/ohrtech/aleph/proprietary/odm/lib64/libDefog.so:$(TARGET_COPY_OUT_ODM)/lib64/libDefog.so \
