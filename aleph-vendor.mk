@@ -2809,6 +2809,11 @@ PRODUCT_COPY_FILES += \
     vendor/ohrtech/aleph/proprietary/vendor/lib/vendor.unisoc.hardware.radio.sim-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.unisoc.hardware.radio.sim-V1-ndk.so \
     vendor/ohrtech/aleph/proprietary/vendor/lib/vendor.unisoc.hardware.radio.voice-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.unisoc.hardware.radio.voice-V1-ndk.so \
     vendor/ohrtech/aleph/proprietary/vendor/lib64/android.hardware.audio@7.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio@7.0-util.so \
+    vendor/ohrtech/aleph/proprietary/vendor/lib64/hw/android.hardware.boot@1.0-impl-1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.boot@1.0-impl-1.2.so \
+vendor/ohrtech/aleph/proprietary/vendor/lib64/hw/android.hardware.camera.provider@2.4-impl-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.camera.provider@2.4-impl-sprd.so \
+vendor/ohrtech/aleph/proprietary/vendor/lib64/hw/android.hardware.graphics.allocator@4.0-impl-arm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.graphics.allocator@4.0-impl-arm.so \
+vendor/ohrtech/aleph/proprietary/vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-arm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.graphics.mapper@4.0-impl-arm.so \
+vendor/ohrtech/aleph/proprietary/vendor/lib64/hw/vulkan.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.ums9230.so \
 vendor/ohrtech/aleph/proprietary/vendor/lib64/android.hardware.biometrics.common-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.biometrics.common-V2-ndk.so \
 vendor/ohrtech/aleph/proprietary/vendor/lib64/android.hardware.biometrics.face-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.biometrics.face-V2-ndk.so \
 vendor/ohrtech/aleph/proprietary/vendor/lib64/android.hardware.bluetooth@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.bluetooth@1.0.so \
