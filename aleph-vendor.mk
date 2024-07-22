@@ -10,6 +10,7 @@ PRODUCT_COPY_FILES += \
     vendor/ohrtech/aleph/proprietary/odm/bin/cam_tuning:$(TARGET_COPY_OUT_ODM)/bin/cam_tuning \
     vendor/ohrtech/aleph/proprietary/odm/bin/fm_tools:$(TARGET_COPY_OUT_ODM)/bin/fm_tools \
     vendor/ohrtech/aleph/proprietary/odm/bin/minicamera:$(TARGET_COPY_OUT_ODM)/bin/minicamera \
+    vendor/ohrtech/aleph/proprietary/odm/etc/NOTICE.xml.gz:$(TARGET_COPY_OUT_ODM)/etc/NOTICE.xml.gz \
     vendor/ohrtech/aleph/proprietary/odm/etc/permissions/android.hardware.camera.flash-autofocus.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/android.hardware.camera.flash-autofocus.xml\
     vendor/ohrtech/aleph/proprietary/odm/etc/permissions/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/android.hardware.fingerprint.xml \
     vendor/ohrtech/aleph/proprietary/odm/etc/permissions/android.hardware.camera.front.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/android.hardware.camera.front.xml \
