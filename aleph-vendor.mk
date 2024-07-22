@@ -2841,6 +2841,7 @@ vendor/ohrtech/aleph/proprietary/vendor/lib/libtinycompress.so:$(TARGET_COPY_OUT
     vendor/ohrtech/aleph/proprietary/vendor/lib/vendor.unisoc.hardware.radio.network-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.unisoc.hardware.radio.network-V1-ndk.so \
     vendor/ohrtech/aleph/proprietary/vendor/lib/vendor.unisoc.hardware.radio.sim-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.unisoc.hardware.radio.sim-V1-ndk.so \
     vendor/ohrtech/aleph/proprietary/vendor/lib/vendor.unisoc.hardware.radio.voice-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.unisoc.hardware.radio.voice-V1-ndk.so \
+    vendor/ohrtech/aleph/proprietary/vendor/lib64/librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilutils.so \
     vendor/ohrtech/aleph/proprietary/vendor/lib64/android.hardware.audio@7.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio@7.0-util.so \
     vendor/ohrtech/aleph/proprietary/vendor/lib64/hw/android.hardware.boot@1.0-impl-1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.boot@1.0-impl-1.2.so \
 vendor/ohrtech/aleph/proprietary/vendor/lib64/hw/android.hardware.camera.provider@2.4-impl-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.camera.provider@2.4-impl-sprd.so \
