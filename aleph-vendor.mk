@@ -736,6 +736,7 @@ PRODUCT_COPY_FILES += \
     vendor/ohrtech/aleph/proprietary/odm/logo/time_vert_48x24x13.yuv:$(TARGET_COPY_OUT_ODM)/logo/time_vert_48x24x13.yuv \
     vendor/ohrtech/aleph/proprietary/odm/logo/time_vert_72x36x13.rgba:$(TARGET_COPY_OUT_ODM)/logo/time_vert_72x36x13.rgba \
     vendor/ohrtech/aleph/proprietary/odm/logo/time_vert_72x36x13.yuv:$(TARGET_COPY_OUT_ODM)/logo/time_vert_72x36x13.yuv \
+    vendor/ohrtech/aleph/proprietary/vendor/bin/vndservicemanager:$(TARGET_COPY_OUT_VENDOR)/bin/vndservicemanager \
     vendor/ohrtech/aleph/proprietary/vendor/bin/aiactiver_testbench:$(TARGET_COPY_OUT_VENDOR)/bin/aiactiver_testbench \
     vendor/ohrtech/aleph/proprietary/vendor/bin/audiodumpclient:$(TARGET_COPY_OUT_VENDOR)/bin/audiodumpclient \
     vendor/ohrtech/aleph/proprietary/vendor/bin/boringssl_self_test32:$(TARGET_COPY_OUT_VENDOR)/bin/boringssl_self_test32 \
