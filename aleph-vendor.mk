@@ -3026,9 +3026,6 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/ohrtech/aleph/proprietary/vendor_dlkm/,$(TARGET_COPY_OUT_VENDOR_DLKM))
 
 PRODUCT_PACKAGES += \
-    LogManager \
-    ProxyNFwLocation \
-    WirelessTools \
     androidx.camera.extensions.impl \
     ai_engine-default \
     android.hardware.cas@1.2-service-lazy \
@@ -3062,5 +3059,8 @@ PRODUCT_PACKAGES += \
     manifest_kernel
 
 #SoterService \
-#UASetting \
 #ims \
+#LogManager \
+#ProxyNFwLocation \
+#WirelessTools \
+#UASetting \
