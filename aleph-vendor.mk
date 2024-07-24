@@ -11,7 +11,6 @@ PRODUCT_COPY_FILES += \
     vendor/ohrtech/aleph/proprietary/odm/bin/fm_tools:$(TARGET_COPY_OUT_ODM)/bin/fm_tools \
     vendor/ohrtech/aleph/proprietary/odm/bin/minicamera:$(TARGET_COPY_OUT_ODM)/bin/minicamera \
     vendor/ohrtech/aleph/proprietary/odm/etc/NOTICE.xml.gz:$(TARGET_COPY_OUT_ODM)/etc/NOTICE.xml.gz \
-    vendor/ohrtech/aleph/proprietary/odm/etc/build.prop:$(TARGET_COPY_OUT_ODM)/etc/build.prop \
     vendor/ohrtech/aleph/proprietary/odm/etc/fs_config_dirs:$(TARGET_COPY_OUT_ODM)/etc/fs_config_dirs \
     vendor/ohrtech/aleph/proprietary/odm/etc/fs_config_files:$(TARGET_COPY_OUT_ODM)/etc/fs_config_files \
     vendor/ohrtech/aleph/proprietary/odm/etc/group:$(TARGET_COPY_OUT_ODM)/etc/group \
