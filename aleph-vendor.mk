@@ -11,6 +11,11 @@ PRODUCT_COPY_FILES += \
     vendor/ohrtech/aleph/proprietary/odm/bin/fm_tools:$(TARGET_COPY_OUT_ODM)/bin/fm_tools \
     vendor/ohrtech/aleph/proprietary/odm/bin/minicamera:$(TARGET_COPY_OUT_ODM)/bin/minicamera \
     vendor/ohrtech/aleph/proprietary/odm/etc/NOTICE.xml.gz:$(TARGET_COPY_OUT_ODM)/etc/NOTICE.xml.gz \
+    vendor/ohrtech/aleph/proprietary/odm/etc/build.prop:$(TARGET_COPY_OUT_ODM)/etc/build.prop \
+    vendor/ohrtech/aleph/proprietary/odm/etc/fs_config_dirs:$(TARGET_COPY_OUT_ODM)/etc/fs_config_dirs \
+    vendor/ohrtech/aleph/proprietary/odm/etc/fs_config_files:$(TARGET_COPY_OUT_ODM)/etc/fs_config_files \
+    vendor/ohrtech/aleph/proprietary/odm/etc/group:$(TARGET_COPY_OUT_ODM)/etc/group \
+    vendor/ohrtech/aleph/proprietary/odm/etc/passwd:$(TARGET_COPY_OUT_ODM)/etc/passwd \
     vendor/ohrtech/aleph/proprietary/odm/etc/permissions/android.hardware.camera.flash-autofocus.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/android.hardware.camera.flash-autofocus.xml\
     vendor/ohrtech/aleph/proprietary/odm/etc/permissions/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/android.hardware.fingerprint.xml \
     vendor/ohrtech/aleph/proprietary/odm/etc/permissions/android.hardware.camera.front.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/android.hardware.camera.front.xml \
