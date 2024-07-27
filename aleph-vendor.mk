@@ -195,6 +195,7 @@ PRODUCT_COPY_FILES += \
     vendor/ohrtech/aleph/proprietary/odm/lib/libcamafl4.0.so:$(TARGET_COPY_OUT_ODM)/lib/libcamafl4.0.so \
     vendor/ohrtech/aleph/proprietary/odm/lib/libcambr_isp2.7.so:$(TARGET_COPY_OUT_ODM)/lib/libcambr_isp2.7.so \
     vendor/ohrtech/aleph/proprietary/odm/lib/libcamcalitest.so:$(TARGET_COPY_OUT_ODM)/lib/libcamcalitest.so \
+    vendor/ohrtech/aleph/proprietary/odm/lib/npidevice/libcamcalitest.so:$(TARGET_COPY_OUT_ODM)/lib/npidevice/libcamcalitest.so \
     vendor/ohrtech/aleph/proprietary/odm/lib/libcamcommon.so:$(TARGET_COPY_OUT_ODM)/lib/libcamcommon.so \
     vendor/ohrtech/aleph/proprietary/odm/lib/libcamdfa.so:$(TARGET_COPY_OUT_ODM)/lib/libcamdfa.so \
     vendor/ohrtech/aleph/proprietary/odm/lib/libcamfacebeauty.so:$(TARGET_COPY_OUT_ODM)/lib/libcamfacebeauty.so \
